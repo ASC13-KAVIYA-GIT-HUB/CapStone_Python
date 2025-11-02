@@ -2,11 +2,20 @@
 
 Automates key actions on the Nykaa website using Python, Selenium, and PyTest.
 
+▶️ Run
+python -m venv .venv
+
+.venv\Scripts\activate
+
+pip install -r requirements.txt
+
+python -m tests.test_nykaa
+
 🔹 Features
 
 Opens Nykaa homepage
 
-Logs in (manual OTP)
+Logs in
 
 Searches for a product
 
@@ -18,9 +27,5 @@ Proceeds to checkout
 
 🐍 Python 3.13+ • 🌐 Selenium • 🧪 PyTest • 📊 PyTest-HTML • 🧠 POM • 📸 Screenshots
 
-▶️ Run
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
-python -m tests.test_nykaa
+
 
